@@ -1,0 +1,66 @@
+@font-face{
+    font-family: sam;
+    src: url(Lalezar-Regular.ttf) format('truetype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sam;
+    font-size: 11px;
+}
+.box{
+    margin: 150px auto;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 13px;
+}
+input , select {
+    outline: none;
+    display: block;
+    margin: 15px auto;
+    width: 162px;
+    padding: 8px;
+    border-radius: 11px;
+    color: #408080;
+    border: 2px solid #408080;
+}
+input{
+    text-align: center;
+    margin: 0px 28% ;
+}
+label{
+    float: right;
+    padding: 8px;
+    color: #996;
+}
+select{
+    color: #408080;
+}
+.box4{
+    border-top: 2px solid #306161;
+    margin: 56px auto;
+
+}
+button{
+    display: block;
+    margin:-15px auto;
+    color: white;
+    background-color: #306161;
+    border-radius:11px;
+    width: 116px;
+    padding: 2px;
+    font-size: 15px;
+    border: none;
+}
+.box5{
+    width: 258px;
+    height: 28px;
+    margin: 30px auto;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
