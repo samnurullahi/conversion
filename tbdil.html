@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tbdil.css">
+    <title>تبدیل واحد</title>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <label for="">تبدیل از</label>
+            <select id="inp1">
+                <option value="کیلومتر">کیلومتر</option>
+                <option value="متر">متر</option>
+                <option value="سانتی متر">سانتی متر</option>
+                <option value="میلی متر">میلی متر</option>
+            </select>
+        </div>    
+        <div class="box2">
+            <label for="">مقدار</label>
+            <input type="number" id="inp2" placeholder="مثال : 70">
+        </div>
+        <div class="box3">
+            <label for="">تبدیل به</label>
+            <select id="inp3">
+                <option value="کیلومتر">کیلومتر</option>
+                <option value="متر">متر</option>
+                <option value="سانتی متر">سانتی متر</option>
+                <option value="میلی متر">میلی متر</option>
+            </select>
+        </div>
+        <div class="border">
+            <div class="box4">
+                <button onclick="bas()">تبدیل</button>
+            </div>
+        </div>
+        <div class="box5">       
+            <p id="sum"></p>
+        </div>
+    </div>
+    <script src="tbdil.js"></script>
+</body>
+</html>
